@@ -27,3 +27,5 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    - name: Delpoy on Cloud:
+      run: curl "https://api.render.com/deploy/srv-crmtsjrv2p9s73fc20bg?key=bA_OUSakQ_M"
